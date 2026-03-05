@@ -5,26 +5,30 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-    Industrial Engineering, Hacettepe University, Turkey, 2021 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Colonel's Restaurant kitchen help year 2024
 
-2.  Firm yyy, position yyy, year yyy
+2.  Copita Restaurant busser year 2024
+
+3.  Divers Delight Diver year 2023
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+1.  TUSAŞ Continuous Improvement Intern. year 2025
 
 # Projects
+
+Graduation project at ESPOM.
 
 # Competencies
 
 R, Quarto, Git, Python
 
 # Hobbies
+
+Reading booka and playing video games about fantasy worlds such as warhammer 40k . Swimming, taking a walk at the park, div
