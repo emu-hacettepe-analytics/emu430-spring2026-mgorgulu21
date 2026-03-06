@@ -9,8 +9,6 @@ sidebar: false
 
 # Work Experience
 
-[My CV](https://drive.google.com/file/d/1jkSXnH7WgDEcipqbXXlOnZb6vrxg5cSI/view?usp=sharing)
-
 ## Employements
 
 1.  Colonel's Restaurant kitchen help year 2024
@@ -29,8 +27,12 @@ Graduation project at ESPOM.
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python.
 
 # Hobbies
 
-Reading books and playing video games about fantasy worlds such as warhammer 40k . Swimming, taking a walk at the park, div
+Reading books and playing video games about fantasy worlds such as warhammer 40k . Swimming, taking a walk at the park, scuba diving.
+
+# Resume
+
+Here is my resume: [cv](https://drive.google.com/file/d/1jkSXnH7WgDEcipqbXXlOnZb6vrxg5cSI/view?usp=sharing)
