@@ -22,12 +22,11 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/mgorgulu21
+      - icon: instagram
+        href: https://www.instagram.com/mevlutt_gorgulu/
       - icon: linkedin
-        href: https://linkedin.com
-
+        href: https://linkedin.com/in/mevlüt-görgülü
   sidebar:
     - title: "Assignments"
       style: "docked"
