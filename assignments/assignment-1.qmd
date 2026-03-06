@@ -4,12 +4,43 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
 My first assignment has two parts.
 
 ## (a)
 
-## (b)
+## (b) 
+
+```{r}
+my_first <- "Mevlut"
+my_birth_year <- 2003
+
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+print(k)
+  library(dslabs)
+data("polls_us_election_2016")
+if (k %% 2 == 0) {
+  head(polls_us_election_2016, k)
+} else {
+  tail(polls_us_election_2016, k)
+}
+sum(is.na(polls_us_election_2016))
+na_per_column <- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE)
+head(na_per_column, 8)
+polls_new <- polls_us_election_2016
+for(i in 1:ncol(polls_new)) {
+  if(is.numeric(polls_new[[i]])) {
+    polls_new[[i]][is.na(polls_new[[i]])] <- my_birth_year + k
+  } else {
+    polls_new[[i]] <- as.character(polls_new[[i]])
+    polls_new[[i]][is.na(polls_new[[i]])] <- paste0(my_first,'_' ,k)
+  }
+}
+if (k %% 2 == 0) {
+  head(polls_new, k)
+} else {
+  tail(polls_new, k)
+}
+
+print(sum(is.na(polls_new)))
+print(anyNA(polls_new))
+```

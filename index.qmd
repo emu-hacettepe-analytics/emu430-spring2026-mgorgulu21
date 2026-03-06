@@ -8,3 +8,5 @@ Hello! My name is Mevlüt Görgülü
 This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMndoNHdkbXZlMzM5b3RhanJjdG45ZmZzZnA0YWJ0ZmI0MXk3bmlvdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IXnnnVD5kyKqXRhaCR/giphy.gif){width="346"}
