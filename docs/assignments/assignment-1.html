@@ -425,6 +425,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>My first assignment has two parts.</p>
 <section id="a" class="level2">
 <h2 class="anchored" data-anchor-id="a">(a)</h2>
+<p><strong>Summary of the Conversation with Cem Vardar</strong></p>
+<p>In this video, Cem Vardar and Erdi Dasdemir discuss the evolving role of Industrial Engineering (IE) within the field of Data Science. Cem Vardar emphasizes that the optimization and process-modeling mindset inherent in IE provides a significant advantage when tackling complex data problems. The conversation highlights that data science is not just about writing code, but about understanding the business problem and transforming raw data into actionable insights to improve decision-making. Vardar also shares his career journey, illustrating how classical IE tools like mathematical programming and statistics are foundational to modern machine learning applications.</p>
+<p><strong>Open-Ended Question</strong></p>
+<ul>
+<li><strong>Question:</strong> According to the video, what is the primary advantage that Industrial Engineers have when entering the field of Data Science?</li>
+</ul>
+<p><strong>Answer:</strong> Their primary advantage is the “systems thinking” approach and their background in optimization and operations research, which allows them to focus on decision-making and business value rather than just the technical aspects of algorithms.</p>
+<p><strong>Multiple-Choice Question</strong></p>
+<ul>
+<li><p><strong>Question:</strong> Which of the following best describes the core goal of Data Analytics as discussed in the talk?</p></li>
+<li><p>a) Only writing complex R scripts.</p></li>
+<li><p>b) Collecting as much data as possible without a specific goal.</p></li>
+<li><p>c) Transforming data into actionable insights for better decision-making.</p></li>
+<li><p>d) Replacing all human managers with AI.</p></li>
+<li><p><strong>Answer:</strong> <strong>c) Transforming data into actionable insights for better decision-making.</strong></p></li>
+</ul>
 </section>
 <section id="b" class="level2">
 <h2 class="anchored" data-anchor-id="b">(b)</h2>
@@ -551,7 +567,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
              429                1                0                0 </code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>polls_new <span class="ot">&lt;-</span> polls_us_election_2016</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">ncol</span>(polls_new)) {</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">ncol</span>(polls_new)) { <span class="co">#this part of the code was created by the help of ai.</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(<span class="fu">is.numeric</span>(polls_new[[i]])) {</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    polls_new[[i]][<span class="fu">is.na</span>(polls_new[[i]])] <span class="ot">&lt;-</span> my_birth_year <span class="sc">+</span> k</span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>

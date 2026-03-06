@@ -8,6 +8,30 @@ My first assignment has two parts.
 
 ## (a)
 
+**Summary of the Conversation with Cem Vardar**
+
+In this video, Cem Vardar and Erdi Dasdemir discuss the evolving role of Industrial Engineering (IE) within the field of Data Science. Cem Vardar emphasizes that the optimization and process-modeling mindset inherent in IE provides a significant advantage when tackling complex data problems. The conversation highlights that data science is not just about writing code, but about understanding the business problem and transforming raw data into actionable insights to improve decision-making. Vardar also shares his career journey, illustrating how classical IE tools like mathematical programming and statistics are foundational to modern machine learning applications.
+
+**Open-Ended Question**
+
+-   **Question:** According to the video, what is the primary advantage that Industrial Engineers have when entering the field of Data Science?
+
+**Answer:** Their primary advantage is the "systems thinking" approach and their background in optimization and operations research, which allows them to focus on decision-making and business value rather than just the technical aspects of algorithms.
+
+**Multiple-Choice Question**
+
+-   **Question:** Which of the following best describes the core goal of Data Analytics as discussed in the talk?
+
+-   a\) Only writing complex R scripts.
+
+-   b\) Collecting as much data as possible without a specific goal.
+
+-   c\) Transforming data into actionable insights for better decision-making.
+
+-   d\) Replacing all human managers with AI.
+
+-   **Answer:** **c) Transforming data into actionable insights for better decision-making.**
+
 ## (b) 
 
 ```{r}
@@ -27,7 +51,7 @@ sum(is.na(polls_us_election_2016))
 na_per_column <- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE)
 head(na_per_column, 8)
 polls_new <- polls_us_election_2016
-for(i in 1:ncol(polls_new)) {
+for(i in 1:ncol(polls_new)) { #this part of the code was created by the help of ai.
   if(is.numeric(polls_new[[i]])) {
     polls_new[[i]][is.na(polls_new[[i]])] <- my_birth_year + k
   } else {
