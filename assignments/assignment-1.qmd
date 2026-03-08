@@ -8,27 +8,25 @@ My first assignment has two parts.
 
 **Summary of the Conversation with Cem Vardar**
 
-In this video, Cem Vardar and Erdi Dasdemir discuss the evolving role of Industrial Engineering (IE) within the field of Data Science. Cem Vardar emphasizes that the optimization and process-modeling mindset inherent in IE provides a significant advantage when tackling complex data problems. The conversation highlights that data science is not just about writing code, but about understanding the business problem and transforming raw data into actionable insights to improve decision-making. Vardar also shares his career journey, illustrating how classical IE tools like mathematical programming and statistics are foundational to modern machine learning applications.
+In this video, I watched a very insightful interview with Cem Vardar about how our department, Industrial Engineering (IE), fits into the world of Data Science. As an IE student, it was encouraging to hear that we actually have a huge head start. Cem Vardar explains that while anyone can learn to code, our "IE mindset" is what really matters. He says that we are trained to look at the whole system and focus on optimization and decision-making.
+
+The main takeaway for me was that Data Science isn't just about playing with data; it's about solving real business problems and turning raw information into actionable insights. Cem Vardar also talks about his own career, showing how the math and statistics we learn in class are the building blocks for high-level technologies like Machine Learning. It made me realize that being an engineer who understands the "why" behind the data is just as important as being a coder who understands the "how."
 
 **Open-Ended Question**
 
--   **Question:** According to the video, what is the primary advantage that Industrial Engineers have when entering the field of Data Science?
+-   **Question:** What is the most important skill an Industrial Engineer brings to a Data Science team according to Cem Vardar?
 
-**Answer:** Their primary advantage is the "systems thinking" approach and their background in optimization and operations research, which allows them to focus on decision-making and business value rather than just the technical aspects of algorithms.
+    -   **Answer:** It is their ability to apply "systems thinking" and optimization techniques to ensure that the data analysis actually leads to better business decisions.
 
 **Multiple-Choice Question**
 
--   **Question:** Which of the following best describes the core goal of Data Analytics as discussed in the talk?
+-   **Question:** According to the talk, why is Industrial Engineering a good fit for Data Science?
+    a) Because IEs only care about manual calculations.
+    b) Because IEs focus on transforming data into insights for better decision-making.
+    c) Because IEs don't need to use computers at all.
+    d) Because Data Science is only about memorizing R code.
 
--   a\) Only writing complex R scripts.
-
--   b\) Collecting as much data as possible without a specific goal.
-
--   c\) Transforming data into actionable insights for better decision-making.
-
--   d\) Replacing all human managers with AI.
-
--   **Answer:** **c) Transforming data into actionable insights for better decision-making.**
+-   **Answer:** **b) Because IEs focus on transforming data into insights for better decision-making.**
 
 ## (b)
 
