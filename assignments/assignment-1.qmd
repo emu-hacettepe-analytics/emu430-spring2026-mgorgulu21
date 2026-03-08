@@ -21,11 +21,10 @@ The main takeaway for me was that Data Science isn't just about playing with dat
 **Multiple-Choice Question**
 
 -   **Question:** According to the talk, why is Industrial Engineering a good fit for Data Science?
-    a) Because IEs only care about manual calculations.
-    b) Because IEs focus on transforming data into insights for better decision-making.
-    c) Because IEs don't need to use computers at all.
-    d) Because Data Science is only about memorizing R code.
-
+    a)  Because IEs only care about manual calculations.
+    b)  Because IEs focus on transforming data into insights for better decision-making.
+    c)  Because IEs don't need to use computers at all.
+    d)  Because Data Science is only about memorizing R code.
 -   **Answer:** **b) Because IEs focus on transforming data into insights for better decision-making.**
 
 ## (b)
@@ -63,4 +62,5 @@ if (k %% 2 == 0) {
 
 print(sum(is.na(polls_new)))
 print(anyNA(polls_new))
+#**AI Prompt for NA Replacement:** "How can I write an R loop to iterate through all columns of a data frame and replace NA values with a specific number for numeric columns, and a specific string for character/factor columns without overwriting the original data set?"
 ```
