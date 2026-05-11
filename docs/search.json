@@ -4,7 +4,7 @@
     "href": "project.html",
     "title": "Our Course Project",
     "section": "",
-    "text": "I’m honored to be a member of the [group name] project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://[your-project-url].\nSummary\n[provide a biref summary of your project]\n\n\n\n Back to top"
+    "text": "I’m honored to be a member of the BosphorusBytes project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to BosphorusBytes Project Page.\nSummary\nOur project analyses the Istanbul Airbnb dataset from Inside Airbnb, which covers approximately 20,000 listings across the city. We investigate how short-term rentals are distributed across Istanbul’s districts, what factors drive listing prices, how the market evolved over time including the impact of COVID-19, and whether the platform is increasingly dominated by professional multi-listing hosts. Using exploratory data analysis, spatial mapping, time-series analysis, and a custom Tourism Pressure Index, we find that listings are heavily concentrated in central tourist districts such as Beyoglu and Sisli, entire-home listings command a significant price premium, and a small group of professional hosts controls a disproportionate share of supply.\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
